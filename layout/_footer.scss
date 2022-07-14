@@ -1,0 +1,100 @@
+.footer {
+    .footer__top {
+        padding-top: 120px;
+        padding-bottom: 134px;
+    }
+    background-color: $basic;
+    .footer__content {
+        display: flex;
+        margin-bottom: 66px;
+        .footer__logo {
+            display: flex;
+            flex-direction: column;
+            margin-right: 190px;
+            a {
+                font-family: $fftext;
+                font-size: 19px;
+                line-height: 35px;
+                color: #99b6c5;
+            }
+            a:not(:last-child) {
+                text-decoration: none;
+            }
+            a:first-child {
+                margin-bottom: 40px;
+            }
+        }
+        .footer__input {
+            max-width: 389px;
+            h3 {
+                font-family: $fftitle;
+                font-size: 28px;
+                line-height: 36px;
+                color: #ffffff;
+                margin-bottom: 23px;
+            }
+            input {
+                background: #99b6c5;
+                border: 1px solid #99b6c5;
+                border-radius: 2px;
+                padding: 10px;
+                padding-left: 23px;
+                padding-right: 200px;
+                background-image: url(/img/input_arrow.svg);
+                background-repeat: no-repeat;
+                background-position: right 5px center;
+                background-size: auto calc(100% - 10px);
+            }
+            ::-webkit-input-placeholder {
+                color: $basic;
+            }
+        }
+    }
+}
+
+.footer__link {
+    display: inline-flex;
+    flex-direction: column;
+    a {
+        text-decoration: none;
+        display: inline-flex;
+        align-items: center;
+        font-family: $fftext;
+        font-size: 20px;
+        line-height: 35px;
+        color: #99b6c5;
+    }
+    img {
+        margin-right: 8px;
+    }
+    a:not(:last-child) {
+        margin-bottom: 15px;
+    }
+}
+
+.footer__bot {
+    background-color: #002b41;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 0;
+    padding-left: 24px;
+    padding-right: 40px;
+    a {
+        text-decoration: none;
+        font-family: $fftext;
+        font-size: 14px;
+        line-height: 35px;
+        color: #99b6c5;
+    }
+    .footer__left {
+        a:first-child {
+            margin-right: 10px;
+        }
+    }
+    .footer__right {
+        a:first-child {
+            margin-right: 16px;
+        }
+    }
+}

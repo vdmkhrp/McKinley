@@ -1,0 +1,22 @@
+.slide {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .slide__content {
+        max-width: 723px;
+        color: $basic;
+        text-align: center;
+        h2 {
+            font-family: $fftitle;
+            font-size: 32px;
+            line-height: 51px;
+            margin-bottom: 16px;
+        }
+        p {
+            font-family: $fftext;
+            font-size: 15px;
+            line-height: 35px;
+            margin-bottom: 226px;
+        }
+    }
+}

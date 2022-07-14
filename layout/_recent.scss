@@ -1,0 +1,59 @@
+.recent {
+    color: $basic;
+    padding-bottom: 160px;
+    padding-top: 155px;
+    > h2 {
+        font-family: $fftitle;
+        font-size: 44px;
+        line-height: 53px;
+        margin-bottom: 61px;
+    }
+    .recent__card {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-column-gap: 40px;
+        .recent__items {
+            background: #ffffff;
+            border: 1px solid #e4ecf0;
+            box-shadow: 0px 24px 24px rgba(0, 72, 109, 0.2);
+            border-radius: 2px;
+            display: flex;
+            flex-direction: column;
+            .recent__image {
+                margin-bottom: 40px;
+            }
+            .recent__text {
+                margin-left: 33px;
+                margin-bottom: 29px;
+                margin-right: 70px;
+                font-family: $fftext;
+                h2 {
+                    font-size: 15px;
+                    line-height: 19px;
+                    margin-bottom: 18px;
+                }
+                p {
+                    font-size: 22px;
+                    line-height: 33px;
+                }
+            }
+            .recent__link {
+                display: inline-flex;
+                align-items: center;
+                margin-top: auto;
+                margin-left: 33px;
+                margin-bottom: 41px;
+                a {
+                    text-decoration: none;
+                    font-family: $fftext;
+                    font-size: 19px;
+                    line-height: 35px;
+                    color: $basic;
+                    img {
+                        margin-left: 9px;
+                    }
+                }
+            }
+        }
+    }
+}
